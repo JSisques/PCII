@@ -11168,7 +11168,6 @@ span.carousel-control-prev-icon {
 }
 
 .index-image {
-  width: 100%;
-  min-width: 400px;
-  max-width: 500px;
+  min-height: 400px;
+  max-height: 500px;
 }
