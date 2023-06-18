@@ -8,7 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Proyecto de Computación II</title>
+    <title>ProgramKIDS</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
@@ -23,7 +23,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#!">Start Bootstrap</a>
+        <a class="navbar-brand" href="#!">ProgramKIDS</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -38,26 +38,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#!">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="../pages/courses.html"
+                >Cursos</a
+              >
             </li>
             <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                id="navbarDropdown"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                >Shop</a
-              >
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#!">All Products</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
-                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
-              </ul>
-            </li>
           </ul>
           <form class="d-flex">
             <button class="btn btn-outline-dark" type="submit">
@@ -81,6 +77,34 @@
     <section class="bg-light py-3">
       <div class="container px- px-lg-5 my-5">
         <div class="text-justify text-white d-inline-flex p-2">
+          <div class=".flex-column flex-column d-flex justify-content-center">
+            <h1 class="display-6 fw-bolder text-dark p-2">
+              ¿Quieres ampliar información?
+            </h1>
+            <p class="lead fw-normal text-dark mb-0 p-2">
+              Introduce tu email a continación si deseas recibir ofertas de
+              nuevos cursos y novedades exclusivas o si quieres mantenerte en
+              contacto con nosotros
+            </p>
+
+            <form>
+              <div class="form-group p-2">
+                <label for="exampleInputEmail1">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Introduce tu email"
+                />
+              </div>
+
+              <div class="form-check"></div>
+              <button type="submit" class="btn btn-dark text-center align p-2">
+                Enviar
+              </button>
+            </form>
+          </div>
           <div class="d-inline-flex p-2">
             <!--Google map-->
             <div
@@ -97,45 +121,13 @@
 
             <!--Google Maps-->
           </div>
-          <div class=".flex-column flex-column d-flex justify-content-center">
-            <h1 class="display-6 fw-bolder text-dark p-2">
-              ¿Quieres ampliar información?
-            </h1>
-            <p class="lead fw-normal text-dark mb-0 p-2">
-              Introduce tu email a continación si deseas recibir ofertas de
-              nuevos cursos y novedades exclusivas
-            </p>
-
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
-                />
-              </div>
-
-              <div class="form-check"></div>
-              <button
-                type="submit"
-                class="btn btn-dark text-center align justify-content-end"
-              >
-                Enviar
-              </button>
-            </form>
-          </div>
         </div>
       </div>
     </section>
     <!-- Footer-->
     <footer class="py-5 bg-dark" style="display: fixed; left: 0; bottom: 0">
       <div class="container">
-        <p class="m-0 text-center text-white">
-          Copyright &copy; Your Website 2023
-        </p>
+        <p class="m-0 text-center text-white">Copyright &copy; ProgramKIDS</p>
       </div>
     </footer>
     <!-- Bootstrap core JS-->
